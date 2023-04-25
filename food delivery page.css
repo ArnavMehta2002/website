@@ -1,0 +1,133 @@
+.container{
+  width: 1250;
+  height :150vh;
+  background-image: url(images/background.jpg);
+  background-positon: center;
+  background-size: cover;
+  padding-left: 8%;
+  padding-right: 8%;
+  box-sizing: border-box;
+}
+.navbar{
+  height: 12%;
+  display: flex;
+  align-items: center;
+}
+.logo{
+  width: 90px;
+  cursor: pointer;
+}
+nav{
+      flex: 1;
+      text-align: right;
+} 
+nav ul li{
+  list-style: none;
+  display: inline-block;
+  margin-left: 60px; 
+}
+nav ul li a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+}
+.row{
+  display: flex;
+  height: 88%;
+  align-items: center;
+}
+.col{
+flex-basis: 50%;
+}
+h2{
+  color: #fff;
+  font-size: 100px;
+}
+h3{
+  color: #fff;
+  font-size: 30px;
+  line-height: 25px;
+}
+p{
+  color: #fff;
+}
+button{
+  width: 180px;
+  color: #000;
+  font-size: 12px;
+  padding: 12px 0;
+  background: #fff;
+  border: 0;
+  border-radius: 20px;
+  outline: none;
+  margin-top: 30px;
+
+}
+.card{
+  width: 200px;
+  height: 230px;
+  display: inline-block;
+  border-radius: 10px;
+  padding: 15px 25px;
+  box-sizing: border-box;
+  cursor: pointer;
+  margin: 10px 15px;
+  background-positon: center;
+  background-size: cover;
+  transtion: transform 0.5s;
+}
+.card1{
+  background-image: url("images/fruits.jpg");
+}
+.card2{
+  background-image: url("images/veggies.jpg");
+}
+.card3{
+  background-image: url("images/desserts.jpg");
+}
+.card4{
+  background-image: url("images/fastfood.jpg");
+}
+.card:hover{
+  transform: translateY(-10px);
+}
+h5{
+  color: #fff;
+  tex-shadow: 0 0 5px #999;
+}
+.fa{
+box-sizing: border-box;
+padding:20px;
+font-size:20px;
+text-align:center;
+text-decoration:none;
+list-style: none;
+margin:5px 2px;
+display: flex;
+}
+.fa:hover{
+opacity:0.7;
+}
+.fa-facebook{color:white; background:#3B5998}
+.fa-twitter{background:#55ACEE;
+color:white;}
+.fa-google {
+background: #dd4b39;
+color: white;
+}
+
+.fa-linkedin {
+background: #007bb5;
+color: white;
+}
+
+.fa-youtube {
+background: #bb0000;
+color: white;
+}
+
+.fa-instagram {
+background: #125688;
+color: white;
+}
+
